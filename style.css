@@ -1,0 +1,42 @@
+.header{
+    text-align: center;
+}
+.header .topic{
+    font-weight: bold;
+}
+.tabItems, .displayBlock{
+    margin: 10px 10px;
+}
+.displayBlock{
+    padding: 35px 20px 35px 20px;
+    background-color: #eee;
+    border: 1px solid #AAA;
+    border-radius: 6px;
+    
+}
+ul{
+    margin-left: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.innerTab{
+    float: left;
+    border: 1px solid #b3b3ff;
+    width: 14%; 
+    padding: 5px;
+    margin: 3px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.innerTab li{
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 0 10px 5px;
+    margin-right: 5px;
+    border-top: 1px solid #b3b3ff;
+    cursor:pointer;
+}
+.innerTab li:hover {
+    background: #bfbfea;
+}
